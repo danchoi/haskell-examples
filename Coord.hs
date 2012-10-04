@@ -3,7 +3,7 @@
 
 module Main where
 
-import Data.Aeson
+import Data.Aeson (FromJSON, ToJSON, decode, encode)
 import GHC.Generics (Generic)
 import Data.ByteString.Lazy.Char8 as Char8
 
